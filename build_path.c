@@ -4,8 +4,8 @@
  * dir (directory) and file (file), and combines them
  * to create a complete file path.
  *
- * @dir - A pointer to the directory portion of the path.
- * @file - A pointer to the filename or file portion of
+ * @dir: A pointer to the directory portion of the path.
+ * @file: A pointer to the filename or file portion of
  * the path.
  *
  * Return: A pointer to a character string (char*):

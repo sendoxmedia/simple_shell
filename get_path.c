@@ -5,7 +5,7 @@
  * the value associated with the "PATH"
  * environment variable.
  *
- * @env - A pointer to an array of environment
+ * @env: A pointer to an array of environment
  * variables, where the "PATH" variable is to be
  * retrieved.
  *

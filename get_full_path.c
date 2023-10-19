@@ -5,11 +5,14 @@
  * path to the specified file within the environment
  * variables provided in env.
  *
- * @file - A pointer to the string representing the
+ * @file: A pointer to the string representing the
  * file or executable to be located.
- * @env - A pointer to an array of environment
+ * @env: A pointer to an array of environment
  * variables (as strings) that contain directory
  * paths to search for the specified file.
+ * @shell: A pointer to a character array (char *)
+ * indicating the name or identifier of the shell
+ * or program.
  *
  * Return: A pointer to a character string (char*):
  * The full path to the specified file if it is found

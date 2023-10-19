@@ -1,8 +1,14 @@
 #include "header.h"
 /**
- * print_error is a function designed to handle and display
+ * print_error -  is a function designed to handle and display
  * error messages related to a shell or command execution.
- * It takes two arguments, both of type char *:
+ * It takes two arguments, both of type char *
+ *
+ * @shell: A pointer to a character array (char *) representing
+ * the name or identifier of the shell or program where the error
+ * occurred.
+ * @command: A pointer to a character array (char *) representing
+ * the specific command that triggered the error.
  */
 
 void print_error(char *shell, char *command)

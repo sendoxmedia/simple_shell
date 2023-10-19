@@ -1,8 +1,23 @@
 #include "header.h"
 /**
- * validate_command is a function that is used to validate
+ * validate_command - function that is used to validate
  * and process a command provided as input to a shell or a
  * similar program. This function takes multiple arguments
+ *
+ * @command: A pointer to a pointer to characters (char **)
+ * representing the command to be validated
+ *
+ * @shell: A pointer to a character array (char *) indicating
+ * the name or identifier of the shell or program.
+ *
+ * @env: A pointer to a pointer to characters (char **)
+ * representing the environment variables for the shell
+ * or program.
+ *
+ * @exit_code: A pointer to an integer (int *) used to store an
+ * exit code or error code.
+ *
+ * Return: (VALID_COMMAND).
  */
 
 unsigned int validate_command(char **command, char *shell, char **env,

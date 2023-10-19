@@ -4,6 +4,8 @@
  * main - main shell loop
  * @argc: the argc parameter is not used
  * @argv: an array of command-line arguments
+ * @env: A pointer to a pointer to characters (char **)
+ * representing the environment variables passed to the program.
  *
  * Return: 0 on success, 1 on error, or error code
  */

@@ -1,8 +1,8 @@
 #include "header.h"
 /**
- * get_lineptr is a function that doesn't take any
+ * get_lineptr - function that doesn't take any
  * arguments and is responsible for obtaining a
- * line or string input from a data source, often 
+ * line or string input from a data source, often
  * standard input or a file.
  *
  * Return: (lineptr)

@@ -3,8 +3,10 @@
  * _strncmp - Compares first character of two strings
  * str1 and str2.
  *
- * @str1 - A pointer to the first input string.
- * @str2 - A pointer to the second input string.
+ * @str1: A pointer to the first input string.
+ * @str2: A pointer to the second input string.
+ * @n: An unsigned integer representing the maximum
+ * number of characters to compare.
  *
  * Return: 0 if the first n characters of str1
  * and str2 are identical.

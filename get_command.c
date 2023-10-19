@@ -1,7 +1,10 @@
 #include "header.h"
 /**
- *@ get_command is a C function that takes a single argument,
+ * get_command - function that takes a single argument,
  * a pointer to a character array lineptr
+ *
+ * @lineptr: This function is responsible for processing
+ * the input provided in lineptr
  *
  * Return: (command)
  */
